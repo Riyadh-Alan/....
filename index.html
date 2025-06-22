@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <title>الصفحة الأولى</title>
+  <style>
+    body { font-family: sans-serif; text-align: center; padding-top: 50px; }
+    img { width: 300px; }
+    button { padding: 10px 20px; margin-top: 20px; font-size: 18px; }
+  </style>
+</head>
+<body>
+
+  <h1>مرحبًا بك في الصفحة الأولى</h1>
+  <img src="https://via.placeholder.com/300x200" alt="صورة عشوائية">
+  <br>
+  <button onclick="goToSecondPage()">اذهب إلى الصفحة الثانية</button>
+
+  <script>
+    function goToSecondPage() {
+      window.location.href = "page2.html";
+    }
+  </script>
+
+</body>
+</html>
